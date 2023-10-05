@@ -11,12 +11,12 @@
     color: #FFF6E0;
 }
 
-.containerSearch{
+/* .containerSearch{
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
-.input{
+/* .input{
     width: 35rem;
     padding: 8px 10px;
     border-radius: 10px;
@@ -28,7 +28,7 @@
     border: none;
     border-radius: 8px;
     width: 4rem;
-}
+} */
 
 .button:hover{
     background-color: rgba(0, 0, 0, 0.1);
