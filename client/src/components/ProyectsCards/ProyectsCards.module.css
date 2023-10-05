@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #272829;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: #FFF6E0;
+}
+
+.containerSearch{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input{
+    width: 35rem;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 0.5rem
+}
+
+.button{
+    border: none;
+    border-radius: 8px;
+    width: 4rem;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    color:white;
+    cursor: pointer;
+}
+
+.hr{
+    width: 80%;
+    margin: 2rem auto;
+    border: none;
+    border-top: 1px solid #ccc; 
+}
