@@ -2,5 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
 }
+/* 
+.img{
+    width: 360px;
+    height: 360px;
+} */
