@@ -1,13 +1,28 @@
+.containerP{
+    display: flex;
+    justify-content: start;
+    /* margin: 3rem; */
+    width: 100%;
+    flex-wrap: wrap;
+
+}
 .containerCard{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin-left: 3rem;
     margin-bottom: 3rem;
-    margin-right: 2rem;
+    background-color: #61677A;
+    border-radius: 10px;
+    transition: all 0.25s;
+    overflow: hidden;
 }
-/* 
-.img{
-    width: 360px;
-    height: 360px;
-} */
+.containerCard:hover{
+    transform: translateY(-15px);
+}
+
+.image{
+    width: 260px;
+    height: 200px;
+
+}

@@ -7,9 +7,7 @@ const ProyectsCards = ()=>{
     <div className={style.container}>
         <h1>Proyectos</h1>
         <hr className={style.hr}/>
-        <div className={style.containerP}>
             <ProyectCard />
-        </div>
     </div>)
 }
 
