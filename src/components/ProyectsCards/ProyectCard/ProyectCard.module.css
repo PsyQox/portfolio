@@ -9,7 +9,6 @@
 .containerCard{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     margin-left: 3rem;
     margin-bottom: 3rem;
     background-color: #61677A;
@@ -33,6 +32,12 @@
     z-index: 1;
 }
 
+.containerCard:hover .overlay{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
 .containerCard:hover{
     transform: translateY(-15px);
 }
@@ -41,4 +46,8 @@
     width: 260px;
     height: 200px;
 
+}
+
+.button{
+    cursor: pointer;
 }
