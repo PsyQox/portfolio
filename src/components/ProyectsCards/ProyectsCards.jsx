@@ -5,7 +5,7 @@ import ProyectCard from "./ProyectCard/ProyectCard"
 const ProyectsCards = ()=>{
     return(
     <div className={style.container}>
-        <h1>Proyectos</h1>
+        <h1>Projects</h1>
         <hr className={style.hr}/>
             <ProyectCard />
     </div>)

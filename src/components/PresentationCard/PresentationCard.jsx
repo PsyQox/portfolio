@@ -9,7 +9,7 @@ const PresentationCard = ()=>{
                     <h1>¿Quién soy?</h1>
                 <div className={style.containerWhoIAM}>
                     <p>Soy Luis Rodriguez, un joven de México que le apasiona el sector de la tecnología. Me di cuenta de que desde pequeño me apasionaba todo lo relacionado con la tecnología, todo lo que tuviera que ver con aprender y solucionar algún problema de este sector. ✅<br/><br/> 
-                    En el sector en el cual desemboco toda mi pasión hoy en día es en el desarrollo Full Stack, manejando las siguientes tecnologías: JavaScript, NodeJS, React, Redux, Express,Sequelize, PostgresSQL. 🚀</p>
+                    En el sector en el cual desemboco toda mi pasión hoy en día es en el desarrollo Full Stack, manejando las siguientes tecnologías: JavaScript, NodeJS, React, Redux, Express, Sequelize, PostgresSQL. 🚀</p>
                 </div>
                 
                     <h1>Tecnologías</h1>
