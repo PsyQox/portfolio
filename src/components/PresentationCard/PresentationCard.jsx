@@ -1,10 +1,32 @@
 import React from "react";
 import style from './PresentationCard.module.css'
+import {BsLinkedin,BsGithub} from 'react-icons/bs'
+import {AiOutlineMail} from 'react-icons/ai'
 
 const PresentationCard = ()=>{
     return(
         <div className={style.containerCard}>
-            <img className={style.img} src="https://pbs.twimg.com/profile_images/1707203476608921600/bLbHo9CZ_400x400.jpg" alt="" />
+            <div className={style.containerImgContact}>
+                <img className={style.img} src="https://pbs.twimg.com/profile_images/1707203476608921600/bLbHo9CZ_400x400.jpg" alt="" />
+                <h1>Contacto</h1>
+                <div className={style.containerContact}>
+                    <table cellSpacing={10}>
+                        <tr>
+                            <td><BsLinkedin size={24}/></td>
+                            <td><a href="https://www.linkedin.com/in/luis-enrique-r-r/" target="_blank">LinkedIn</a></td>
+                        </tr>
+                        <tr>
+                            <td><BsGithub size={24}/></td>
+                            <td><a href="https://github.com/PsyQox" target="_blank">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td><AiOutlineMail size={24}/></td>
+                            <td><a href="mailto:luisrodrizza@gmail.com">luisrodrizza@gmail.com</a></td>
+                        </tr>
+                    </table>
+                      
+                </div>
+            </div>
             <div className={style.containerText}>
                     <h1>¿Quién soy?</h1>
                 <div className={style.containerWhoIAM}>
