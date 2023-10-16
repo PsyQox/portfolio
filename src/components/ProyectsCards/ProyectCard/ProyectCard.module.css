@@ -17,6 +17,15 @@
     overflow: hidden;
 }
 
+.containerTecnologies{
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
 .overlay{
     position: absolute;
     top: 0 ;
@@ -59,4 +68,20 @@
     border-radius: 10px;
     text-align: center;
     background-color: #272829;
+}
+
+.tag{
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 2px;
+    background-color: #272829;
+    color: #FFF6E0;
+    padding: 0.2rem 0.4rem;
+}
+
+.tag:hover{
+    background-color: rgba(39, 40, 41, 0.8);
 }

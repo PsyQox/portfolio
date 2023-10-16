@@ -12,7 +12,15 @@ const ProyectCard = ()=>{
             <div className={style.containerCard}>
                     <img className={style.image} src={Food} alt=""/>
                     <div className={style.overlay}>
-                        <h2>Food</h2>
+                        <h3>Food</h3>
+                        <div className={style.containerTecnologies}>
+                            <button className={style.tag}>React</button>
+                            <button className={style.tag}>Redux</button>
+                            <button className={style.tag}>NodeJS</button>
+                            <button className={style.tag}>Express</button>
+                            <button className={style.tag}>Sequelize</button>
+                            <button className={style.tag}>PostgreSQL</button>
+                        </div>
                         <div className={style.containerButton}>
                             <Link to="https://github.com/PsyQox/food" target="_blank" rel="noopener noreferrer">
                                 <button className={style.button}><AiOutlineGithub size={32}/></button>
