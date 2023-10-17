@@ -8,13 +8,9 @@ const Home = ()=>{
     const [cargaCompleta, setCargaCompleta] = useState(false)
 
     useEffect(()=>{
-        // setTimeout(()=>{
-        //     setCargaCompleta(true);
-        // },2000)
-        window.addEventListener('load', ()=> setCargaCompleta(true))
-        return function(){
-            window.removeEventListener('load',()=> setCargaCompleta(true))
-        }
+        setTimeout(()=>{
+            setCargaCompleta(true);
+        },2000)
     },[])
 
     return(
