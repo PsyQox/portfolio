@@ -7,7 +7,7 @@ const PresentationCard = ()=>{
     return(
         <div className={style.containerCard}>
             <div className={style.containerImgContact}>
-                <img className={style.img} src="https://pbs.twimg.com/profile_images/1707203476608921600/bLbHo9CZ_400x400.jpg" alt="" />
+                <img className={style.img} src="https://avatars.githubusercontent.com/u/79774787?v=4" alt="" />
                 <h1>Contacto</h1>
                 <div className={style.containerContact}>
                     <table cellSpacing={10}>
