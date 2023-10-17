@@ -4,12 +4,12 @@
     /* margin: 3rem; */
     width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 .containerCard{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 3rem;
     margin-bottom: 3rem;
     background-color: #61677A;
     border-radius: 10px;
